@@ -19,6 +19,12 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 600px) { 
+  .nav_item_wrapper {
+    display: none;
+  }
+}
+
 .nav_item {
   padding-top: 0;
   padding-right: 1.2rem;
