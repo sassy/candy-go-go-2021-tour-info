@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+button {
+  border-radius: 8px;
+  background-color: cornflowerblue;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
