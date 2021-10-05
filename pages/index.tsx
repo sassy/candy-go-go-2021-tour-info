@@ -49,7 +49,7 @@ export default function Home() {
           2021年10月9日（土）<br />
 仙台MACANA<br />
 <button><a href="https://goo.gl/maps/YP8BHcshb67t2hHw5">地図</a></button><br />
-OPEN15:00（前物販・・チェキ、CD・DVD、Tシャツなどの販売あり）br />
+OPEN15:00（前物販・・チェキ、CD・DVD、Tシャツなどの販売あり）<br />
 START15:30　<br />
 ＊約2時間公演予定<br />
 終演後物販　17:40～19:00<br />
