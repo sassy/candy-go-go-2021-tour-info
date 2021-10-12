@@ -31,11 +31,11 @@ export default function Home() {
         <div className={styles.wrapper}>
           <div className={styles.box1}>
             <ul >
-              <li><span>10月9日(土):</span><span>仙台</span><span>仙台MACANA</span></li>
-              <li><span>10月30日(土):</span><span>大阪 </span><span>心斎橋VARON</span></li>
-              <li><span>11月14日(日):</span><span>名古屋</span><span>HOLIDAY NEXT NAGOYA</span></li>
-              <li><span>11月21日(日):</span><span>新潟</span><span>新潟 GOLDEN PIGS</span></li>
-              <li><span>12月6日(月):</span><span>東京</span><span>TSUTAYA O-EAST</span></li>
+              <li><span>10月9日(土):</span><span> 仙台</span><span> 仙台MACANA</span></li>
+              <li><span>10月30日(土):</span><span> 大阪 </span><span> 心斎橋VARON</span></li>
+              <li><span>11月14日(日):</span><span> 名古屋</span><span> HOLIDAY NEXT NAGOYA</span></li>
+              <li><span>11月21日(日):</span><span> 新潟</span><span> 新潟 GOLDEN PIGS</span></li>
+              <li><span>12月6日(月):</span><span> 東京</span><span> TSUTAYA O-EAST</span></li>
             </ul>
           </div>
           <div className={styles.box2}>
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <div className={styles.place_item}>
           <a id="sendai"></a>
-          <h2>仙台</h2>
+          <h2>仙台<span className={styles.end}>終了</span></h2>
           <div>
           2021年10月9日（土）<br />
 仙台MACANA<br />
@@ -72,6 +72,8 @@ START15:30　<br />
 <br />
 料金：予約＆前売2500円　当日3000円　各１D代別<br />
 <br />
+予約受付中<br />
+<button><a href="https://candygogo.jp/ticket/">予約フォーム</a></button>
           </div>
         </div>
         <div className={styles.place_item}>
@@ -85,6 +87,8 @@ OPEN15:00<br />
 START15:30　<br />
 <br />
 料金：予約＆前売2500円　当日3000円　各１D代別<br />
+予約受付中<br />
+<button><a href="https://candygogo.jp/ticket/">予約フォーム</a></button>
           </div>
         </div>
         <div className={styles.place_item}>
@@ -98,6 +102,8 @@ START15:30　<br />
           START15:30　<br />
           <br />
           料金：予約＆前売2500円　当日3000円　各１D代別<br />
+          予約受付中<br />
+          <button><a href="https://candygogo.jp/ticket/">予約フォーム</a></button>
           </div>
         </div>
         <div className={styles.place_item}>
@@ -111,6 +117,8 @@ OPEN17:00<br />
 START17:55　 <br />
 <br />
 予約2500円　当日3000円　１D代別 <br />
+予約受付中<br />
+<button><a href="https://candygogo.jp/ticket/">予約フォーム</a></button>
           </div>
         </div>
       </main>
