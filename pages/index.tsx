@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <header className={styles.header}>
         <div>
-        CANDY GO!GO!BRAVE VENUS TOUR 2021
+         CANDY GO!GO!BRAVE VENUS TOUR 2021
         </div>
         <nav>
           <ul className={styles.nav_item_wrapper}>
